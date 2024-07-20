@@ -17,7 +17,7 @@ export async function createPlaylist(name, folderUri) {
             : { after: { uri: folderUri } };
 
     const user = await Spicetify.Platform.UserAPI.getUser()
-  Spicetify.showNotification(`Creating playlist ${name} for ${user.displayName}`)
+  console.log(user)
     return await Spicetify.CosmosAsync.post(`https://api.spotify.com/v1/users/${Spicetify.User.getUsername()}/playlists`, {
         name: name,
         ...options,
