@@ -1,6 +1,6 @@
 {
   "name": "Shooting Stars",
-  "description": "A simple star rating extension. Fork of https://github.com/brimell/spicetify-star-ratings",
+  "description": "0.0.1 - A simple star rating extension. Fork of https://github.com/brimell/spicetify-star-ratings",
   "preview": "imgs/preview.png",
   "main": "dist/star-ratings.js",
   "readme": "README.md",
