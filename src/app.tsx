@@ -83,6 +83,7 @@ async function handleSetRating(trackUri: string, oldRating: string | undefined, 
     }
 
     // Convert the new rating to string format with one decimal place
+    console.log(playlistUris)
     let playlistUri = playlistUris[newRating];
 
     // If the Rated playlist for the new rating doesn't exist, create it
