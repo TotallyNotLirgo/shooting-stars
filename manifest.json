@@ -1,10 +1,11 @@
 {
-  "name": "Star Ratings (Rate your music)",
-  "description": "Rate your music out of 5 stars (interactive)!",
+  "name": "Shooting Stars",
+  "description": "A simple star rating extension. Fork of https://github.com/brimell/spicetify-star-ratings",
   "preview": "imgs/preview.png",
   "main": "dist/star-ratings.js",
   "readme": "README.md",
   "authors": [
+      { "name": "TotallyNotLirgo", "url": "https://github.com/TotallyNotLirgo" },
       { "name": "Bill Rimell", "url": "https://github.com/brimell" }
   ],
   "tags": ["star", "rating", "interactive"]
